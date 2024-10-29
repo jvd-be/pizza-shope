@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+ 
+    @font-face {
+        font-family:"Poppins Semibold";
+        src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+    }
+    @font-face {
+        font-family: "Poppins Medium";
+        src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap') format("woff");
+    };
+
+    body{
+        font-family: 'Poppins Medium',;
+    }
+   
+}
+

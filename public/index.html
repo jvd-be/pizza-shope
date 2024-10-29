@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/app.css">
+    <!-- ihover library -->
+    <link rel="stylesheet" href="style/ihover.css">
+    <!-- Scroll Reveal animate -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Pizza</title>
+</head>
+<body>
+    <div class="container relative">
+        <!-- nav bar -->
+        <nav class="flex items-center justify-between w-full py-4 px-4 md:px-12 lg:px-16 xl:px-28 fixed top-0 right-0 z-10 bg-white dark:text-white dark:bg-slate-900">
+            <a href="#" class=" text-yellow-400 font-bold text-xl">Pizza Pie</a>
+            
+            <div class="flex font-semibold items-center justify-between md:gap-8 xl:gap-12 text-gray-900 dark:text-white">
+                <ul id="list-mobile" class="flex flex-col absolute -right-52 top-16 bg-white dark:bg-slate-900 w-48 transition-all duration-150 font-semibold items-center justify-between gap-12 md:static md:right-0 md:top-0 md:w-full text-gray-900 dark:text-white md:flex md:flex-row pb-2">
+                    
+                    <li class="hover:text-yellow-400 transition-all duration-100 ease-in">
+                        <a href="#">
+                            Home
+                    </a>
+                </li>
+                    <li class="hover:text-yellow-400 transition-all duration-100 ease-in">
+                        <a href="#">
+                            About
+                    </a>
+                </li>
+                    <li class="hover:text-yellow-400 transition-all duration-100 ease-in">
+                        <a href="Menu.html">
+                            Menu
+                        </a>
+                    </li>
+                    <li class="hover:text-yellow-400 transition-all duration-100 ease-in">
+                        <a href="#">
+                            Service
+                        </a>
+                    </li>
+                    <li class="hover:text-yellow-400 transition-all duration-100 ease-in">
+                        <a href="#">
+                            Contact
+                        </a></li>
+                        <li>
+                            <span id="status" class="cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 hover:text-yellow-400 transition-all duration-100 ease-in" >
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+                                </svg>
+                                
+                            </span>
+                        </li>
+                    </ul>
+                    
+                    <!-- main site -->
+                    
+                    <div class="inline-block md:hidden" id="menu-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                          </svg>                      
+                    </div>
+                </div>
+              
+        </nav>
+        
+        
+    </div>
+    <div class="bg-zinc-50 dark:bg-slate-900 px-4 md:px-16 lg:px-24 xl:px-36">
+        <section class="my-10 md:my-30 grid grid-cols-1 md:grid-cols-2 justify-between gap-1">
+            <div class="my-12 md:my-40">
+                <h1 class="font-bold text-5xl md:text-8xl text-yellow-400">Pizza Taste</h1>
+                <h3 class="font-semibold md:text-5xl my-6 dark:text-white">The tasty pizza of your choice</h3>
+                <a href="Menu.html" class="bg-yellow-400 hover:bg-yellow-500 duration-100 ease-in rounded-md px-2.5 py-2 text-white text-lg">View Menu</a>
+            </div>
+            <div class="main-image">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80.png" class="w-full h-screen object-cover">
+            </div>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-x-8 mt-12 ">
+            <img src="https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395__480.jpg" alt="" class="rounded-md  second-img  md:h-full object-cover mt-10 order-2 md:order-1">
+            <div class="order-1 md:order-2">
+                <a href="#" class="text-yellow-400 font-medium text-2xl">About us</a>
+                <h3 class="font-semibold md:text-5xl dark:text-white">The tasty pizza of your choice</h3>
+                <p class="my-4 dark:text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut quo iure rem ducimus tenetur deserunt commodi doloribus, quibusdam vel fuga?</p>
+
+                <a href="#" class="bg-yellow-400 text-white  hover:bg-yellow-500 rounded-md
+                px-2.5 py-2.5">
+                    Learn More
+                </a>
+            </div>
+        </section>
+        <section>
+            <div class="text-center mt-12">
+                <a href="Menu.html" class="text-yellow-400 font-medium text-2xl">Menu</a>
+                <h3 class="font-bold md:text-5xl dark:text-white">Tasty menu of the week</h3>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+                <div class="bg-white dark:bg-slate-900 dark:text-white px-20 py-6 rounded-xl shadow-md text-center relative box-pizza">
+                    <div class="ih-item square effect7"><a href="#">
+                        <div class="img"><img src="https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?cs=srgb&dl=pexels-beqa-tefnadze-803290.jpg&fm=jpg" alt="img"></div>
+                        <div class="info">
+                          <h3>Cheese Pizza</h3>
+                          <p>Pepper, bacon, cheese, chicken</p>
+                        </div></a></div>
+
+                    <h4 class="font-bold text-2xl mt-6 dark:text-white">Cheese Pizza</h4>
+                    <h6 class="dark:text-white">Tasty Food</h6>
+                    <h6 class="dark:text-white">$30.05</h6>
+                    <div class="bg-yellow-400 inline-block p-2 rounded-se-xl rounded-es-xl absolute right-0 top-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                          </svg>
+                    </div>
+                </div>
+                <div class="bg-white dark:bg-slate-900 dark:text-white px-20 py-6 rounded-xl shadow-md text-center relative box-pizza">
+                    <div class="ih-item square effect7"><a href="#">
+                        <div class="img"><img src="https://img.freepik.com/free-photo/pepperoni-pizza-with-sausages-cheese-dark-wooden-table_220768-9277.jpg?size=626&ext=jpg" alt="img"></div>
+                        <div class="info">
+                          <h3>Tropical Pizza</h3>
+                          <p>Chorizo, cheese, pineapple, special sauce</p>
+                        </div></a></div>
+                    <h4 class="font-bold text-2xl mt-6 dark:text-white">Tropical Pizza</h4>
+                    <h6 class="dark:text-white">Tasty Food</h6>
+                    <h6 class="dark:text-white">$30.05</h6>
+                    <div class="bg-yellow-400 inline-block p-2 rounded-se-xl rounded-es-xl absolute right-0 top-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                          </svg>
+                    </div>
+
+                </div>
+                <div class="bg-white dark:bg-slate-900 dark:text-white  px-20 py-6 rounded-xl shadow-md text-center relative box-pizza">
+                    <div class="ih-item square effect7"><a href="#">
+                        <div class="img"><img src="https://img.freepik.com/free-photo/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_141793-2158.jpg?w=740&t=st=1661842808~exp=1661843408~hmac=c40f0c154036b96b1dba17947c4e4f7c07f40db983106490402bb0b7b6ec452e" alt="img"></div>
+                        <div class="info">
+                          <h3>Mecaroni Pizza</h3>
+                          <p>Seasoned meat, Swiss cheese, mushrooms, olives, tomatoes</p>
+                        </div></a></div>
+                    
+                    <h4 class="font-bold text-2xl mt-6 dark:text-white">Mecaroni Pizza</h4>
+                    <h6 class="dark:text-white">Tasty Food</h6>
+                    <h6 class="dark:text-white">$30.05</h6>
+                    <div class="bg-yellow-400 inline-block p-2 rounded-se-xl rounded-es-xl absolute right-0 top-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                          </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="mt-12 text-center">
+                <a href="#" class="text-yellow-400 font-medium text-2xl dark:text-white">Service</a>
+                <h3 class="font-bold md:text-5xl dark:text-white">We provide best food services</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12" >
+                    <div class="box-dis">
+                        <div class="text-center mx-auto flex justify-center">
+                            <img src="https://images.pexels.com/photos/280453/pexels-photo-280453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500.png" class="w-1/5 block text-center" alt="">
+
+                        </div>
+    
+                        <h4 class="font-bold text-2xl my-4 dark:text-white">You Order</h4>
+                        <h6 class="dark:text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit ea fugiat esse tempore ipsum temporibus.</h6>
+    
+                    </div>
+                    <div class="box-dis">
+                        <div class="text-center mx-auto flex justify-center">
+                            <img src="https://images.pexels.com/photos/4391470/pexels-photo-4391470.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500.png" class="w-1/5 block text-center" alt="">
+
+                        </div>
+    
+                        <h4 class="font-bold text-2xl my-4 dark:text-white">Delivered</h4>
+                        <h6 class="dark:text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit ea fugiat esse tempore ipsum temporibus.</h6>
+    
+                    </div>
+                    <div class="box-dis">
+                        <div class="text-center mx-auto flex justify-center">
+                            <img src="https://images.pexels.com/photos/4393426/pexels-photo-4393426.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500.png" class="w-1/5 block text-center" alt="">
+
+                        </div>
+    
+                        <h4 class="font-bold text-2xl my-4 dark:text-white">Delivered</h4>
+                        <h6 class="dark:text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit ea fugiat esse tempore ipsum temporibus.</h6>
+    
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- footer -->
+        <section>
+            <div class="mx-4 md:mx-20 mt-12">
+
+                <div class="">
+                    <a href="#" class="text-yellow-400 font-semibold text-xl">Let's Talk</a>
+                </div>
+                
+                <div class="flex justify-between">
+                    <h3 class="font-bold text-2xl md:text-4xl dark:text-white">Connect now</h3>
+                    <a href="#"class="bg-yellow-400 text-white hover:bg-yellow-500 rounded-md
+                    px-2.5 py-2 ">Contact Us</a>
+                </div>
+
+                <p class="text-center mt-12 wow animate__animated animate__bounce dark:text-white">
+                    © Asslone4 All Right Reserved.
+                </p>
+
+            </div>
+        </section>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

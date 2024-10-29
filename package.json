@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  },
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./public/style/app.css --watch"
+  },
+  "dependencies": {
+    "@types/scrollreveal": "^0.0.11",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "flowbite": "^2.5.1",
+    "scrollreveal": "^4.0.9"
+  }
+}
